@@ -99,3 +99,7 @@ for(let i = 0; i < biblioteca.length; i++){
 }
 console.log(`O titulo do livro com mais páginas é ${maior.titulo}`)
 console.log(`A média de páginas dos livros é ${soma / 5}`)
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
