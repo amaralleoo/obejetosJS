@@ -31,4 +31,4 @@ for (let i = 0; i < funcionarios.length; i++){
 }
 console.log(`Funcionário com maior salário: ${maior.nome}`)
 console.log(`Média salarial: ${soma / funcionarios.length}`)
-console.loc(`Quantidade de Gerentes: ${gerente}`)
+console.log(`Quantidade de Gerentes: ${gerente}`)
