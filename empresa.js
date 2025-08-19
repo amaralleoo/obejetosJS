@@ -1,10 +1,10 @@
 let projetos = []
 
 for(let i = 0; i < 6; i++){
-    let nome = prompt(`Informe o nome do projeto: `)
-    let empresa = prompt(`Informe a empresa: `).toLowerCase
-    let orcamento = Number(prompt(`Informe o orçamento: `))
-    let tempoMeses = Number(prompt(`Informe a duração em mesês: `))
+    let nome = prompt(`Informe o nome do projeto ${i+1}: `)
+    let empresa = prompt(`Informe a empresa ${i+1}: `).toLowerCase
+    let orcamento = Number(prompt(`Informe o orçamento ${i+1}: `))
+    let tempoMeses = Number(prompt(`Informe a duração em mesês ${i+1}: `))
 
     let tecProjEmp = {
         nome: nome,
