@@ -48,3 +48,20 @@ for(let i=0; i<5; i++){
     }
 }
 console.log(`Qtde de níveis críticos ${qtdNivelCritico}`)
+let medias = []
+for(let i=0; i<poluicao.length; i++){
+    let somaLinhas = 0
+    for(let j=0; j<poluicao.length; j++){
+        somaLinhas += poluicao[i][j]
+    }
+    medias[i] = somaLinhas / poluicao.length
+}
+let menor = medias[0]
+let posMenor = 0
+for(let i=0; i<medias.length; i++){
+    if(medias[i] < menor){
+        menor = medias[i]
+        posMenor[i]
+    }
+}
+console.log(`A região com menor média ${menor} foi ${regioes[posMenor]}`)
